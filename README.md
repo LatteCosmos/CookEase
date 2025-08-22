@@ -1,5 +1,9 @@
 # CookEase 🧑🏻‍🍳👩‍🍳🧑🏾‍🍳
 
+[![Deploy static content to Pages](https://github.com/LatteCosmos/CookEase/actions/workflows/static.yml/badge.svg)](https://github.com/LatteCosmos/CookEase/actions/workflows/static.yml)
+
+Use AI to create and deliver custom healthy meal plans.
+
 ### About CookEase
 
 We are a cooking-first company, powered by smart AI, with a mission to make healthy eating easy for everyone. Life is busy — work, family, and countless other priorities often leave little time for cooking. That’s why many people struggle with diet and long-term health.
