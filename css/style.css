@@ -59,7 +59,7 @@ body {
 
 .section-hero {
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 9.6rem 0;
 }
 
 .heading-primary {
@@ -80,6 +80,7 @@ body {
 .hero {
   max-width: 130rem;
   margin: 0 auto;
+  padding: 0 3.2rem;
   display: grid;
   grid-template-columns: 1fr, 1fr;
   align-items: center;
@@ -87,7 +88,7 @@ body {
 }
 
 .hero-text-box {
-  max-width: 60rem;
+  max-width: 70rem;
   padding: 2rem;
 }
 
@@ -107,7 +108,7 @@ body {
 
 .hero-img.img1 {
   /* 鸡蛋豆腐*/
-  top: 40rem;
+  top: 50rem;
   right: 225px;
   z-index: 3;
   width: 400px;
@@ -116,14 +117,14 @@ body {
 
 .hero-img.img2 {
   /* 黑色 */
-  top: 5rem;
+  top: 10rem;
   right: 25rem;
   z-index: 1;
   width: 300px;
 }
 .hero-img.img3 {
   /* 人*/
-  top: 15rem;
+  top: 20rem;
   right: 0;
   z-index: 2;
   width: 300px;
@@ -200,4 +201,19 @@ body {
 .delivered-text span {
   color: #cd5f5f;
   font-weight: 700;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 8rem;
+  left: 0;
 }
