@@ -54,7 +54,7 @@ body {
   font-family: "rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
+  color: #2b5858;
 }
 
 .section-hero {
@@ -66,7 +66,7 @@ body {
   font-size: 5.2rem;
   font-weight: 700;
   line-height: 1.05;
-  color: #333;
+  color: #2b5858;
   letter-spacing: -0.5px;
   margin-bottom: 3.2rem;
 }
@@ -162,7 +162,7 @@ body {
 .btn--outline:link,
 .btn--outline:visited {
   background-color: #fff;
-  color: #555;
+  color: #2b5858;
 }
 
 .btn--outline:hover,
@@ -216,4 +216,126 @@ body {
 .logo {
   height: 8rem;
   left: 0;
+}
+
+.main-nav-list {
+  display: flex;
+  font-size: 1.8rem;
+  gap: 3.2rem;
+  list-style: none;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #2b5858;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cd5f5f;
+}
+
+.main-nav-link-nav-tryforfee:link,
+.main-nav-link-nav-tryforfee:visited {
+  border-radius: 9px;
+  padding: 1.2rem 2.4rem;
+  background-color: rgb(246, 162, 150);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.main-nav-link-nav-tryforfee:hover,
+.main-nav-link-nav-tryforfee:active {
+  border-radius: 9px;
+  padding: 1.2rem 2.4rem;
+  background-color: #cd5f5f;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.step-image {
+  width: 38%;
+  border-radius: 20%;
+}
+
+.heading-secondary,
+.heading-primary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #2b5858;
+  letter-spacing: -0.5px;
+}
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cd5f5f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #d3d3d3b1;
+  margin-bottom: 1.2rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.step-image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
