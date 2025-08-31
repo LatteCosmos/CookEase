@@ -285,7 +285,7 @@ body {
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 0 3.2rem;
+  padding: 3.2rem 3.2rem;
 }
 
 .step-image {
@@ -303,7 +303,7 @@ body {
 .heading-secondary {
   font-size: 4.4rem;
   line-height: 1.2;
-  margin-bottom: 9.6rem;
+  margin-bottom: 3.2rem;
 }
 
 .subheading {
